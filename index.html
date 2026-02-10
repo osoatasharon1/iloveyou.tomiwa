@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Valentine’s Day ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Landing Section -->
+  <section class="landing" id="landing">
+    <h1>Hi my love ❤️</h1>
+    <p>
+      Distance can’t stop love.  
+      So I made you something from my heart.
+    </p>
+
+    <div class="spotify">
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2U7svZUGvR4tfKdyxv9mXu?utm_source=generator" width="100%" height="352" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
+
+    <button onclick="goToTimeline()">Enter my heart →</button>
+  </section>
+
+  <!-- Timeline Section -->
+  <section class="timeline" id="timeline">
+    <h2>Our 3 Years Together 🕰️</h2>
+
+    <div class="timeline-item">
+      <h3>Year One 💕</h3>
+      <p>
+        We met, we talked, we laughed.  
+        I didn’t know it then, but you were already becoming home.
+      </p>
+    </div>
+
+    <div class="timeline-item">
+      <h3>Year Two 🌍</h3>
+      <p>
+        Distance tested us, but love held stronger.  
+        Late-night calls, patience, and choosing each other every day.
+      </p>
+    </div>
+
+    <div class="timeline-item">
+      <h3>Year Three ❤️</h3>
+      <p>
+        Still here. Still us.  
+        Stronger, deeper, and more sure than ever.
+      </p>
+    </div>
+
+    <button onclick="goToLetters()">Read my letters 💌</button>
+  </section>
+
+  <!-- Love Letters Section -->
+  <section class="letters" id="letters">
+    <h2>Letters From My Heart 💌</h2>
+
+    <div class="letter">
+      <h3>Dear My Love,</h3>
+      <p>
+        Three years with you has taught me what love really means.
+        Even across distance, you’ve made me feel safe, chosen, and deeply cared for.
+      </p>
+      <p>
+        Thank you for your patience, your kindness, and the way you always show up for me.
+        I’m so grateful for you.
+      </p>
+      <p class="signature">Always yours, <br>Sharon ❤️</p>
+    </div>
+
+    <div class="letter">
+      <h3>Another Little Truth 💕</h3>
+      <p>
+        Loving you hasn’t always been easy, but it has always been worth it.
+        Every call, every wait, every moment apart has only made my love grow.
+      </p>
+      <p>
+        I choose you. Still. Always.
+      </p>
+      <p class="signature">Forever yours ❤️</p>
+    </div>
+
+    <button onclick="goToFlowers()">Flowers just for you 🌸</button>
+  </section>
+
+  <!-- Digital Flowers Section -->
+  <section class="flowers" id="flowers">
+    <h2>Flowers Just for You 🌸</h2>
+    <p class="flower-note">
+      I wish I could give these to you in person.  
+      Each one carries a little piece of my love.
+    </p>
+
+    <div class="flower-garden">
+      <button class="flower" onclick="showFlower('You make me feel safe and loved 🌹')">🌹</button>
+      <button class="flower" onclick="showFlower('Your kindness means everything to me 🌷')">🌷</button>
+      <button class="flower" onclick="showFlower('You always make me smile, even on hard days 🌼')">🌼</button>
+      <button class="flower" onclick="showFlower('Loving you has been my favorite journey 💐')">💐</button>
+      <button class="flower" onclick="showFlower('You are my calm and my happiness 🌸')">🌸</button>
+    </div>
+
+    <p id="flower-message"></p>
+  </section>
+
+  <!-- Floating Hearts -->
+  <div class="hearts">
+    <span>❤️</span>
+    <span>💖</span>
+    <span>💕</span>
+    <span>💗</span>
+    <span>❤️</span>
+    <span>💖</span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
